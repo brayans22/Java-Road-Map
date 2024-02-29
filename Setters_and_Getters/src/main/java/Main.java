@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Person person = Person("Jose", 19,  true, 0);
+        Person person2 = Person("Maria", 41,  false, 1);
     }
 }

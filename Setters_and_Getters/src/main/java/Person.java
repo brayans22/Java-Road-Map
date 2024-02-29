@@ -18,27 +18,19 @@ public class Person {
         this.id = id;
         this.isStudent = isStudent;
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-    public void setAge(int age) {
-        this.age = age;
-    }
-    public void setId(int id) {
-        this.id = id;
-    }
-    public void setIsStudent(boolean student) {
-        this.isStudent = student;
-    }
-    public int getAge() {
-        return this.age;
-    }
-    public int getId() {
-        return this.id;
-    }
-    public String getName() {
-        return name;
-    }
+    public void setName(String name) { this.name = name; }
+    
+    public void setAge(int age) { this.age = age; }
+    
+    public void setId(int id) { this.id = id; }
+    
+    public void setIsStudent(boolean student) { this.isStudent = student; }
+    
+    public int getAge() { return this.age; }
+    
+    public int getId() { return this.id; }
+    
+    public String getName() { return name; }
+    
     public boolean getIsStudent() { return this.isStudent; }
 }
